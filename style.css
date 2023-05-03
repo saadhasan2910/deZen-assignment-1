@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FIRST SECTION CSS START*/
+
+/* Left One CSS Starts */
+.leftSide {
+    display: inline-block;
+}
+
+.leftOne {
+    background: white;
+    color: black;
+    padding: 15px;
+
+    width: 180px;
+    height: 255px;
+
+    /* border: 2px solid black; */
+}
+
+.leftOne span {
+    color: #626262;
+    margin-left: 15px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.tracking {
+    color: #068EEE;
+    margin-top: 15px;
+    /* margin-bottom: 10px; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tracking span {
+    color: #068EEE;
+    margin-left: 10px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.dottedLine {
+    width: 1px;
+    height: 38px;
+
+    border-left: 1px dashed #068EEE;
+}
+
+/* Left One CSS Ends */
+
+
+/* Left Two CSS Start */
+.leftTwo {
+    background: #F5FAFF;
+    color: #626262;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 180px;
+    height: 700px;
+
+    /* border: 2px solid black; */
+}
+
+.leftTwo i {
+    padding-top: 20px;
+}
+
+.leftTwo i span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    margin-left: 10px;
+}
+
+/* Left Two CSS Ends */
+
+/* FIRST SECTION CSS END*/
+
+
+/* RIGHT SECTION CSS START */
+.rightSide {
+    background: #E4EDF4;
+
+    width: 1275px;
+    height: 960px;
+
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+/* Right One CSS Start */
+.rightOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightRightSide {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown,
+.name,
+.profilePic {
+    padding-left: 20px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.drName {
+    align-items: center;
+    justify-content: center;
+}
+
+.drName h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.drName p {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.dropdown p {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+
+    color: #068EEE;
+}
+
+#dropButton {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+
+    padding: 4px 20px;
+}
+
+.name h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.name p {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.name p span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.profilePic img {
+    width: 35px;
+    height: 50px;
+
+    border-radius: 10px;
+}
+
+/* Right One CSS End */
+
+/* Right Two CSS Start */
+
+.rightTwo {
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.rightTwo h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+    color: #206493;
+}
+
+.complaintHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.complaintText {
+    padding: 20px;
+}
+
+.lastIcon {
+    margin-top: 20px;
+}
+
+.lastIcon i {
+    padding-left: 10px;
+}
+
+.complaintText h3 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+
+    color: #626262;
+}
+
+.complaintText p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.lorem {
+    width: 300px;
+}
+
+.complaintBorder{
+    display: flex;
+    border: 1px dashed #DAD8D8;
+
+    margin-bottom: 20px;
+}
+
+.lorem1 {
+    width: 200px;
+}
+
+/* Right Two CSS Ends */
